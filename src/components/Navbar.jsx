@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center bg-gray-800 text-white px-6 py-3 mb-4 shadow-md">
-      <div className="font-bold text-lg">WebApotek</div>
+      <div className="font-bold text-lg">Medistock</div>
       <div className="space-x-4">
         <Link to="/" className="hover:underline">Dashboard</Link>
         {role === "admin" && (

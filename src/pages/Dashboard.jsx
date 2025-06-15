@@ -207,7 +207,7 @@ const Dashboard = () => {
         {tab === "utama" && (
           <>
             {renderChart("📊 5 Penyakit Terbanyak Bulan Ini", topPenyakit, "jumlah", "penyakit")}
-            {renderChart("📈 Top 15 Forecast", forecast1.slice(0, 15), "jumlah", "obat")}
+            {renderChart("📈 Grafik 15 Forecast", forecast1.slice(0, 15), "jumlah", "obat")}
             {renderTable("📋 Top 15 Pemakaian Obat", topUsed.slice(0, 15))}
           </>
         )}
